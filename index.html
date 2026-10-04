@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#fff2dc">
+<title>A Surprise for Bubu Rani 💗</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="music-control">
+  <button id="musicToggle" aria-label="Turn music on or off">♫ Music: off</button>
+</div>
+<main id="app">
+  <section class="page active" id="welcome">
+    <div class="ambient-stars"></div>
+    <div class="scene"><div class="bear white dancing" role="img" aria-label="Dudu dancing">
+      <i class="ear l"></i><i class="ear r"></i><i class="arm l"></i><i class="arm r"></i><i class="torso"></i><i class="leg l"></i><i class="leg r"></i><i class="face"><b class="eye l"></b><b class="eye r"></b><b class="blush l"></b><b class="blush r"></b><b class="snout"></b><b class="nose"></b><b class="smile"></b></i>
+    </div><span class="sparkle a">✦</span><span class="sparkle b">✧</span><span class="sparkle c">✦</span></div>
+    <h1>Today is a special day for me.<br>Do you want to know why?</h1>
+    <a class="btn" href="#question">Click for a surprise 💗</a>
+  </section>
+
+  <section class="page" id="question">
+    <div class="scene"><div class="bear white suspicious" role="img" aria-label="Dudu looking suspicious">
+      <i class="ear l"></i><i class="ear r"></i><i class="arm l"></i><i class="arm r"></i><i class="torso"></i><i class="leg l"></i><i class="leg r"></i><i class="face"><b class="eye l"></b><b class="eye r"></b><b class="blush l"></b><b class="blush r"></b><b class="snout"></b><b class="nose"></b><b class="smile"></b></i><span class="question-mark">?</span>
+    </div></div>
+    <h1>First you have to proof that you are my Bubu</h1>
+    <form id="passwordForm"><input id="password" type="password" placeholder="Your secret password" autocomplete="off" aria-label="Password"><button class="btn" type="submit">Confirm</button></form>
+    <p class="hint">Let me give you a hint, the password starts with "d"</p>
+  </section>
+
+  <section class="page" id="wrong">
+    <div class="scene"><div class="bear white crying" role="img" aria-label="Dudu crying">
+      <i class="tear l"></i><i class="tear r"></i><i class="ear l"></i><i class="ear r"></i><i class="arm l"></i><i class="arm r"></i><i class="torso"></i><i class="leg l"></i><i class="leg r"></i><i class="face"><b class="eye l"></b><b class="eye r"></b><b class="blush l"></b><b class="blush r"></b><b class="snout"></b><b class="nose"></b><b class="sad-mouth"></b></i>
+    </div></div>
+    <h1>You are not my bubu.</h1><a class="btn lilac" href="#question">Try again</a>
+  </section>
+
+  <section class="page birthday" id="birthday">
+    <div class="balloon-field" aria-hidden="true"></div>
+    <div class="scene"><div class="bear white dancing" role="img" aria-label="Dudu dancing">
+      <i class="ear l"></i><i class="ear r"></i><i class="arm l"></i><i class="arm r"></i><i class="torso"></i><i class="leg l"></i><i class="leg r"></i><i class="face"><b class="eye l"></b><b class="eye r"></b><b class="blush l"></b><b class="blush r"></b><b class="snout"></b><b class="nose"></b><b class="smile"></b></i>
+    </div><span class="heart h1">♥</span><span class="heart h2">♥</span></div>
+    <h1 class="pink-title">Happy Birthday Bubu Rani</h1>
+    <p class="subline">Today is all about you, my favourite person! 💖</p>
+    <a class="btn" href="#cake">Click to continue ✨</a>
+  </section>
+
+  <section class="page cake-page" id="cake">
+    <div class="balloon-field faint" aria-hidden="true"></div>
+    <div class="birthday-backdrop">Happy Birthday Bubu Rani <span>🎈 ✨ 🎈</span></div>
+    <div class="cake-intro">
+      <h2>A little birthday wish for you…</h2>
+      <p>I know I am not there with you right now. But without a cake, a birthday is incomplete. So cut the cake and start this special day with a smile. 💗</p>
+      <p class="instruction" id="instruction">First, blow out the candles by touching each flame! 🕯️</p>
+    </div>
+    <div class="cake-wrap">
+      <div class="cake" id="cakeToCut" role="button" tabindex="0" aria-label="Touch the cake to cut it">
+        <div class="candles">
+          <button class="candle" aria-label="Blow out candle one"><i class="flame"></i></button>
+          <button class="candle" aria-label="Blow out candle two"><i class="flame"></i></button>
+          <button class="candle" aria-label="Blow out candle three"><i class="flame"></i></button>
+        </div>
+        <div class="icing"><span class="drip d1"></span><span class="drip d2"></span><span class="drip d3"></span><span class="sprinkles">· ✦ · ✧ · ✦ ·</span></div>
+        <div class="cake-layer top"></div><div class="cake-layer bottom"></div><div class="cake-board"></div>
+        <span class="cake-heart">♥</span>
+      </div>
+      <div class="knife" id="knife" aria-hidden="true">🔪</div>
+    </div>
+    <p class="cut-hint" id="cutHint">Tap the three flames to make a wish.</p>
+  </section>
+
+  <section class="page final-page birthday" id="final">
+    <div class="balloon-field" aria-hidden="true"></div>
+    <div class="final-content">
+      <img class="couple-photo" src="assets/our-photo.jpg" alt="A lovely photo of the birthday couple">
+      <h1 class="pink-title">Happy Birthday Dheros 💗</h1>
+      <p class="love-message">You know how special you are to me. Even when miles keep us apart, you are always close to my heart. I wish I could be right beside you today, holding your hand, seeing that beautiful smile and celebrating every little moment with you.</p>
+      <p class="love-message">May this new year of your life bring you endless happiness, warm hugs, beautiful surprises and dreams that come true. Thank you for being my favourite reason to smile. You deserve all the love in the world — today and every day. I love you, my Bubu Rani. ❤️</p>
+      <div class="bear-duo"><div class="bear white tiny dancing" aria-label="Dudu dancing"><i class="ear l"></i><i class="ear r"></i><i class="arm l"></i><i class="arm r"></i><i class="torso"></i><i class="leg l"></i><i class="leg r"></i><i class="face"><b class="eye l"></b><b class="eye r"></b><b class="blush l"></b><b class="blush r"></b><b class="snout"></b><b class="nose"></b><b class="smile"></b></i></div><div class="bear honey tiny dancing"><i class="ear l"></i><i class="ear r"></i><i class="arm l"></i><i class="arm r"></i><i class="torso"></i><i class="leg l"></i><i class="leg r"></i><i class="face"><b class="eye l"></b><b class="eye r"></b><b class="blush l"></b><b class="blush r"></b><b class="snout"></b><b class="nose"></b><b class="smile"></b></i></div></div>
+      <div class="mini-cake">🎂</div>
+      <p class="signature">Forever your Dudu 🧸</p>
+    </div>
+  </section>
+</main>
+<script src="script.js"></script>
+</body></html>
